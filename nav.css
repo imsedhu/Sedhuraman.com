@@ -1,0 +1,88 @@
+.nav {
+  width: 100%;
+  height: 60px;
+  /*background-color: #090f10;*/
+  background-color: #132229;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+}
+.nav img {
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-top: 9px;
+}
+.nav ul {
+  float: right;
+  list-style: none;
+  margin-right: 20px;
+}
+.nav ul li {
+  display: inline-block;
+  cursor: url("hand-cursor/hand-cursor-2.png"), auto;
+}
+.nav ul li a {
+  text-decoration: none;
+  line-height: 60px;
+  color: #00ff88;
+  padding: 10px 10px;
+  background-color: #132229;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: url("hand-cursor/hand-cursor-2.png"), auto;
+}
+.nav ul li a:hover {
+  color: white;
+}
+@media (max-width: 824px) {
+  .nav {
+    width: 100%;
+    z-index: 500;
+  }
+  .nav ul {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #090f10;
+    text-align: center;
+    top: 60px;
+    left: -100%;
+    transition: 0.5s;
+    font-weight: bolds;
+  }
+  nav ul.slide {
+    left: 0;
+    transition: 0.5s;
+  }
+  .nav ul li {
+    display: block;
+    width: 100%;
+  }
+  .nav ul li:hover {
+    background-color: #00ff88;
+    font-weight: bold;
+  }
+  .nav ul li:hover a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .hamburgar {
+    float: right;
+    padding-right: 20px;
+    padding-top: 12px;
+    cursor: url('icons-contact/icons8-cursor-40.png'), auto;
+  }
+  .hamburgar .line {
+    background-color: #00ff88;
+    width: 25px;
+    height: 5px;
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}

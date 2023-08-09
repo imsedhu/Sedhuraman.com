@@ -1,0 +1,146 @@
+
+body {
+  background-color: black;
+  /*font-family: 'Bodoni Moda', serif;*/
+  font-family: 'BIZ UDGothic', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  /*border: solid white 10px;
+  margin: 0px 0px 0px 0px;
+  height: 100vh;*/
+}
+
+
+.intro-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 20px;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+}
+.intro-text  p {
+  margin-bottom: 3px;
+  margin-top: 0px;
+  font-weight: bold;
+  display: inline-block;
+  padding-left: 10px;
+}
+span {
+  color: #00ff88;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #132229;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.span2 {
+  color: #00ff88;
+  font-size: 25px;
+  background-color: #132229;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.intro-text .p4 {
+  margin-top: 10px;
+  background-color: #132229;
+  /*color: #00ff88;*/
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #090f10;
+}
+
+.nav-container img {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 15px;
+}
+
+.dp {
+  display: flex;
+  align-items: center;
+  width: 200px;
+}
+
+.dp p {
+  margin-left: 0px;
+  font-size: 15px;
+  transition: color 0.15s;
+}
+
+.dp p:hover {
+  color: #00ff88;
+}
+
+.content {
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.content p {
+  font-size: 15px;
+  transition: color 0.15s;
+}
+
+.content p:hover {
+  color: #00ff88;
+}
+
+.image-container {
+  display: flex;
+  width: 80%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 0px;
+}
+
+@media (max-width: 576px) {
+  .intro-section {
+    width: 100%;
+  }
+  .intro-container{
+    width: 90%;
+  }
+  .image-container {
+    display: none;
+  }
+  .span2 {
+    font-size: 25px;
+  }
+}

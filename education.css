@@ -1,0 +1,90 @@
+.edu-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.edu-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.edu-title-text p {
+  margin-bottom: 20px;
+}
+.edu-title-text span {
+  color: #00ff88;
+  font-size: 20px;
+  background-color: #132229;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-weight: bold;
+  display: inline-block;
+}
+.edu-content-1 {
+  background-color: #132229;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 10px;
+  /*color: #00ff88;*/
+  font-weight: bold;
+}
+.edu-content-2 {
+  margin-bottom: 10px;
+}
+.edu-content-1 .degree{
+  color: #00ff88;
+  display: inline-block;
+  background-color: #132229;
+  padding-left: 3px;
+  font-size: 25px;
+}
+.edu-content-2 {
+  background-color: #132229;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 10px;
+  /*color: #00ff88;*/
+  font-weight: bold;
+}
+.edu-content-2 .degree {
+  color: #00ff88;
+  display: inline-block;
+  background-color: #132229;
+  padding-left: 3px;
+  font-size: 25px;
+}
+.edu-img {
+  display: flex;
+  width: 50%;
+}
+.edu-img img {
+  width: 100%;
+  margin-top: 0px;
+}
+.edu-content-box {
+  width: 50%;
+}
+.edu-content-1 p,
+.edu-content-2 p {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+
+@media (max-width: 576px) {
+  .edu-container{
+    width: 80%;
+  }
+  .edu-img {
+    display: none;
+  }
+  .edu-content-box {
+    width: 100%;
+  }
+}
